@@ -32,7 +32,6 @@ def main(args=None):
 
     ###Creating Release Folder in Project###
     data_folder = Folder(release_name, description = release_name, parent=project)
-    syn.setPermissions(data_folder, )
     data_folder = syn.store(data_folder)
 
     ###Uploading File###
